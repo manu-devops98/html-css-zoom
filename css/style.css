@@ -25,15 +25,16 @@ html {
 }
 
 .nav-container .col-left,
-.nav-container .col-right  {
+.nav-container .col-right,
+.nav-container .col-middle  {
     width: 15%; 
     display: flex;
     color: white;
-    /* border: 1px solid red; */
 }
 
 .nav-container .col-middle {
     width: 70%;
+    justify-content: center;
 }
 /* colonna-sinistra  */
 .icon-container {
@@ -61,7 +62,8 @@ html {
     font-size: 0.8em;
 }
 
-.icon-container:hover {
+.icon-container:hover,
+.icon-container-middle:hover {
     background-color: rgb(149, 149, 149);
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -76,6 +78,9 @@ html {
 
 .icon-content-right i {
     font-size: 0.5em;
+    padding: 0.4em;
+    border: 1px solid #262626;
+    border-radius: 5px;
 }
 
 .icon-content-right i:hover {
@@ -84,6 +89,16 @@ html {
     border: 1px solid grey;
     border-radius: 5px;
     padding: 0.4em;
+}
+/* colonna centrale  */
+.icon-container-middle {
+    display: flex;
+    height: 100%;
+    margin-right: 1em;
+}
+
+#share {
+    color: greenyellow;
 }
 
 /* colonna destra  */
