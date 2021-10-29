@@ -196,4 +196,10 @@ main {
     color: white;
     padding: 0.3em 0.8em;
     background-color: #677483;
+    transition: 0.5s;
 }
+
+.img-content span:hover {
+    background-color: grey;
+    cursor: pointer;
+} 
